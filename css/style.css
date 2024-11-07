@@ -1,0 +1,47 @@
+body {
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url(" https://media.istockphoto.com/id/94502345/photo/sunflare-on-road.webp?a=1&b=1&s=612x612&w=0&k=20&c=cxNnXHzqM-y5V0WoicbO_UEOYdatlVjyDECJMFNS-6c=");
+    background-repeat: no-repeat;
+    background-size:1300px 600px; 
+    overflow: hidden;
+    
+}
+h1{
+    text-transform:uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.clock{
+       display:flex;
+     
+}
+.clock div {
+    margin:5px;
+}
+.clock span{
+    width:100px;
+    height:80;
+    background-color:honeydew;
+    opacity:.9;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size:70px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+.clock .text{
+   height:30px;
+   font-size:20px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   background-color:aquamarine;
+   opacity:80%;
+
+
+
+}
